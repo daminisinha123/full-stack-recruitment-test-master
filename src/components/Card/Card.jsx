@@ -42,7 +42,7 @@ constructor(props){
          <div className={cx(globalStyles['card-group'])}>
             <div className={cx(globalStyles['col-*-8'])}>
                 <div className={cx(globalStyles['card-deck'])}>
-                    {displayDetails()}
+                    {this.displayDetails()}
                 </div>
             </div>
          </div>
